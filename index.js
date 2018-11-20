@@ -7,3 +7,7 @@ function destructivelyAppendKitten() {
 function destructivelyPrependKitten() {
   return kittens.unshift("Bob")
 }
+
+function destructivelyRemoveLastKitten() {
+  return kittens.pop("Garfield")
+}
